@@ -1,0 +1,7 @@
+# Ignore the local tasks database so personal tasks aren't pushed to GitHub
+tasks.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
