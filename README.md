@@ -39,6 +39,11 @@ python tasker.py complete 1
 python tasker.py delete 1
 ```
 
+### Run Tests
+```bash
+python -m unittest discover -s tests
+```
+
 ## Technologies Used
 
-- Python (Built-in libraries: `argparse`, `json`, `os`, `datetime`)
+- Python (Built-in libraries: `argparse`, `json`, `os`, `datetime`, `unittest`)
